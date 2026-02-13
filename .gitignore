@@ -1,0 +1,52 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Virtual Environments ---
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Jupyter Notebooks / Colab ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+.virtual_documents/
+
+# --- Statistics & Logs ---
+*.log
+audit_log.csv
+# إذا كنت تريد رفع سجل الأحداث للباحثين، امسح السطر أعلاه
+
+# --- Figures & Results ---
+# نترك ملفات الصور (png) لكي تظهر في الـ README
+# لكن نتجاهل ملفات النظام المؤقتة
+.DS_Store
+Thumbs.db
+
+# --- Security (CRITICAL) ---
+# تجاهل أي ملفات قد تحتوي على مفاتيح API Keys
+.secrets
+configs/*.json
+!configs/config_template.json
