@@ -40,6 +40,6 @@ Where:
 
 ## 🛠️ Installation
 ```bash
-git clone [https://github.com/YOUR_USERNAME/Semantic-LLM-Guard.git](https://github.com/YOUR_USERNAME/Semantic-LLM-Guard.git)
+git clone [https://github.com/AbdaullahAG/semantics-llm-security-gateway](https://github.com/AbdaullahAG/semantics-llm-security-gateway) 
 cd Semantic-LLM-Guard
 pip install -r requirements.txt
